@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(169, 48, 75);
+}
+
+.GAME {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Game-Pannel {
+  border: 1px solid;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 10px 50px;
+}
+
+.Game-LPannel {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(217, 174, 189);
+  width: 500px;
+  height: 600px;
+}
+
+.Game-RPannel {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(187, 122, 150);
+  width: 500px;
+  height: 600px;
+}
+
+.Player__label {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.DICE-Total {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(199, 54, 95);
+  padding-top: 10px;
+}
+
+.DICE-Count-LPannel {
+  border-radius: 10px;
+  background-color: rgb(185, 122, 153);
+  width: 200px;
+  height: 110px;
+  margin: 10px 130px 10px 130px;
+}
+
+.DICE-CAL-title {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+
+.DICE-CAL {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+}
+.DICE-Count-RPannel {
+  border-radius: 10px;
+  background-color: rgb(195, 68, 108);
+  width: 200px;
+  height: 110px;
+  margin: 10px 130px 10px 130px;
+}
+
+.GAMESTART {
+  position: absolute;
+  top: 90px;
+  left: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GAMESTART__button {
+  border: 0px;
+  border-inline: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.ROLLDICE {
+  position: absolute;
+  bottom: 170px;
+  left: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ROLLDICE__button {
+  border: 0px;
+  border-inline: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.HOLD {
+  position: absolute;
+  bottom: 105px;
+  left: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HOLD__button {
+  border: 0px;
+  border-inline: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
